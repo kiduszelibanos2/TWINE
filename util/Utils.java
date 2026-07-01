@@ -1,0 +1,1 @@
+package twine.util; public class Utils{public static byte[] toBlock(String t){byte[] b=new byte[16]; byte[] x=t.getBytes(); for(int i=0;i<x.length&&i<16;i++) b[i]=(byte)(x[i]&0xF); return b;} public static String toHex(byte[] d){StringBuilder sb=new StringBuilder(); for(byte b:d) sb.append(String.format("%02X",b)); return sb.toString();}}
