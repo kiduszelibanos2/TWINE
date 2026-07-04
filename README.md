@@ -263,7 +263,6 @@ It does not fully implement the official TWINE specification, including:
 # Future Improvements
 
 - Add decryption support
-- Develop a Java Swing GUI
 - Encrypt and decrypt files
 - Support multiple block encryption
 - Improve key schedule implementation
